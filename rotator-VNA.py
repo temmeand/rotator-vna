@@ -55,11 +55,12 @@ def advanceRotator(deg):
     Returns
     -------
     """
-    print "write this fuction"
     stepsPerRotation = 508000
     gearRatio = 6
     stepsPerDeg = stepsPerRotation * gearRatio
     steps = stepsPerDeg * deg
+
+    raise NotImplementedError("Write this function!")
 
 def startRotatorTurning(rpm):
     """

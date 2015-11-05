@@ -56,6 +56,10 @@ def advanceRotator(deg):
     -------
     """
     print "write this fuction"
+    stepsPerRotation = 508000
+    gearRatio = 6
+    stepsPerDeg = stepsPerRotation * gearRatio
+    steps = stepsPerDeg * deg
 
 def startRotatorTurning(rpm):
     """

@@ -73,8 +73,11 @@ def startRotatorTurning(rpm):
     Return
     ------
     """
-    #gearRatio = 2.7397
-    gearRatio=2.446
+    # gear ratio for rotator in the antenna chamber and arch range
+    gearRatio = 6
+
+    # gear ratio for APS Design Competition turntable
+    # gearRatio=2.446
 
     delay = 0.01
 
